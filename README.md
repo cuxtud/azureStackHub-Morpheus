@@ -1,13 +1,9 @@
 ![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.001.png)
 
 Connecting Azure Stack Hub in Disconnected Mode to the Morpheus Data Platform ![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.002.png)
-
-Publication Date: 09 Jun 2023 Applies to: Morpheus Data Version: 6.0+
-
-Categories: *<Tags to aid in search>*  Classification: Public 
-
-Document ID: *TT230601*
-
+---
+Author: Thuan Tran & Bryce
+---
 Prerequisites 
 
 To gain the most value from this document, readers should already be familiar with the following concepts: ![ref1]
