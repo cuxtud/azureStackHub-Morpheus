@@ -2,7 +2,7 @@
 
 Connecting Azure Stack Hub in Disconnected Mode to the Morpheus Data Platform ![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.002.png)
 ---
-Author: Thuan Tran & Bryce
+Author: Thuan Tran & Bryce Trapier
 ---
 Prerequisites 
 
