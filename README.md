@@ -1,6 +1,6 @@
-![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.001.png)
+![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.001.png)
 
-Connecting Azure Stack Hub in Disconnected Mode to the Morpheus Data Platform ![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.002.png)
+Connecting Azure Stack Hub in Disconnected Mode to the Morpheus Data Platform ![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.002.png)
 
 Publication Date: 09 Jun 2023 Applies to: Morpheus Data Version: 6.0+
 
@@ -26,7 +26,7 @@ Implementation of the concepts in this document requires the following parameter
 
 Overview 
 
-e.g. functional description, with lightweight “why” ![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.004.png)Four Endpoints: 
+e.g. functional description, with lightweight “why” ![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.004.png)Four Endpoints: 
 
 1. User Portal.  Subscription is created in the User portal. 
 1. User Management Endpoint.  Used to deploy resources.  Deploying resources. 
@@ -37,15 +37,15 @@ Implementation ![ref1]
 
 To connect Azure Stack Hub *in disconnected mode* to the Morpheus Data Platform, follow the steps below: 
 
-1. In the Morpheus web UI, navigate to ***Infrastructure > Clouds*** and then click the + ADD button ![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.005.png)
+1. In the Morpheus web UI, navigate to ***Infrastructure > Clouds*** and then click the + ADD button ![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.005.png)
 
-![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.006.png)
+![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.006.png)
 
-2. In the CREATE CLOUD modal, select AZURE STACK (PRIVATE) and then click the NEXT button. ![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.007.png)![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.008.png)
+2. In the CREATE CLOUD modal, select AZURE STACK (PRIVATE) and then click the NEXT button. ![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.007.png)![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.008.png)
 
-![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.009.png)
+![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.009.png)
 
-3. In the CREATE CLOUD modal, use the table below to provide values on the CONFIGURE tab.  See the footnotes ![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.010.png)![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.011.png)of each value for contextual information and examples. 
+3. In the CREATE CLOUD modal, use the table below to provide values on the CONFIGURE tab.  See the footnotes ![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.010.png)![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.011.png)of each value for contextual information and examples. 
 
 
 
@@ -84,17 +84,17 @@ The response from the API call will include an authentication stanza with an aud
 ![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.018.png)  Note that the loginEndpoint can be used to validate your IDENTITY URL. 
 
 
-
-|{ |
-| - |
-|"galleryEndpoint":"https://adminportal.local.azurestack.external:30015/", |
-|"graphEndpoint":"https://graph.windows.net/", |
-|"portalEndpoint":"https://adminportal.local.azurestack.external/", |
-|"**authentication**":{ |
-|"loginEndpoint":"https://adfs.windows.net/", |
-|"audiences":["https://contoso.onmicrosoft.com/4de154de-f8a8-4017-af41-df619da68155"] |
-|} |
-|}|
+```
+{
+  "galleryEndpoint":"https://adminportal.local.azurestack.external:30015/", 
+  "graphEndpoint":"https://graph.windows.net/", 
+  "portalEndpoint":"https://adminportal.local.azurestack.external/", 
+  "**authentication**":{ 
+  "loginEndpoint":"https://adfs.windows.net/", 
+  "audiences":["https://contoso.onmicrosoft.com/4de154de-f8a8-4017-af41-df619da68155"] 
+  }
+}
+```
 
 4 BASE DOMAIN![ref2]
 
