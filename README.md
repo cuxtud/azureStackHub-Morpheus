@@ -81,7 +81,7 @@ https://**management**.**westus1**.**contoso.local**/metadata/endpoints?api-vers
 
 The response from the API call will include an authentication stanza with an audiences key.  The value of the audiences key, without the quotes, should be used for the IDENTITY RESOURCE URL.  
 
-![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.018.png)  Note that the loginEndpoint can be used to validate your IDENTITY URL. 
+![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.018.png)  Note that the loginEndpoint can be used to validate your IDENTITY URL. 
 
 
 
@@ -104,13 +104,13 @@ For the BASE DOMAIN parameter, use the base domain of the Azure Stack deployment
 
 The  SUBSCRIPTION  ID  is  found  under  the  AzureStack  Hub  subscription  on  the   Microsoft AzureStack Hub User Portal. 
 
-![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.019.jpeg)
+![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.019.jpeg)
 
-CLIENT ID and CLIENT SECRET.  6 ![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.020.png)
+CLIENT ID and CLIENT SECRET.  6 ![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.020.png)
 
 The CLIENT ID and the CLIENT SECRET in an Azure Stack disconnected environment are derived from a Service Principal Name in the User Portal or Admin portal.  Note that the SPN must have either Owner or Contributor permissions to Azure the subscription. 
 
-LOCATION and RESOURCE GROUP.  7![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.021.png)
+LOCATION and RESOURCE GROUP.  7![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.021.png)
 
 The LOCATION and RESOURCE GROUP can be configured after successful authentication to your Azure Stack environment. 
 
@@ -124,8 +124,8 @@ e.g. mutually-exclusive configuration options; reliance on external entities or 
 
 Further Reading and Documentation 
 
-e.g. navigable content – URL’s to whitepapers or collateral or toolkit, links to textbooks or blogs, etc.  ![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.022.png)
-![](Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.023.png)
+e.g. navigable content – URL’s to whitepapers or collateral or toolkit, links to textbooks or blogs, etc.  ![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.022.png)
+![](files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.023.png)
 
-[ref1]: Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.003.png
-[ref2]: Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.012.png
+[ref1]: files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.003.png
+[ref2]: files/Aspose.Words.3a23d1de-3194-4a4a-941d-ea5324283dee.012.png
